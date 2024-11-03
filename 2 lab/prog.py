@@ -33,7 +33,7 @@ transformers = [
     MaxAbsScaler(),
     RobustScaler(),
     Normalizer(),
-    Binarizer(threshold=0.5),
+    Binarizer(threshold=0.6),
     QuantileTransformer(output_distribution='uniform'),
     PowerTransformer(method='yeo-johnson'),
 ]
