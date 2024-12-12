@@ -85,7 +85,7 @@ for alpha in np.arange(0.01, 10, 0.01):
     mse_values.append(mse)
 
 
-plt.plot(np.arange(0, 10, 0.01), mse_values)
+plt.plot(np.arange(0.01, 10, 0.01), mse_values)
 plt.xlabel("alpha")
 plt.ylabel("MSE")
 plt.title("(Lasso) Зависимость MSE от alpha")
